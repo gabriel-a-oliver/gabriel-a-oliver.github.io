@@ -4,7 +4,7 @@
 
 <h1>Welcome</h1>
 
-<p>I'm Katharina.</p>
+<p>Gabriel's Github</p>
 
 </body>
 </html>
