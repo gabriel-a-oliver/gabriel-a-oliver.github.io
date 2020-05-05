@@ -2,8 +2,14 @@
 <head>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <style>
-    p { /* I put the font family change in the style tag because I think it makes the more important for the viewer to see this than the other styles in the styles.css. */
+    p { /* Gabe: I put the font family change in the style tag because I think it makes the more important for the viewer to see this than the other styles in the styles.css. */
       font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    h2 {
+      text-align: center;
+    }
+    nick-name { /* Gabe: Created my own class to make the code for Bella's nickname more readable*/
+      font-style: italic;
     }
   </style>
 <title>Welcome</title>
@@ -32,9 +38,20 @@
 
 <!-- Gabe's part starts here-->
   <!-- My code is inspired by w3schools and the Professor's Sample page to implement style details.-->
-  <div class="boxes">  
-    <h2>Bella</h2>
-      
+  <div class="boxes" style="background-color:rgb(171, 203, 212); border:1px dotted rgb(216, 243, 173); box-shadow: 2px 2px -3px; border-radius: 7px";>
+    <!-- Bella's Name-->
+    <h2>Bella 
+      <nick-name>
+        <span style="color:white">'</span><span
+        style="color:rgb(224, 163, 7)">Cac</span><span 
+        style="color:rgb(60, 60, 204)">hu</span><span
+        style="color:red">cha</span><span
+        style="color:white">'</span>
+      </nick-name>
+    Oliver</h2>
+      <!--Photo of Bella-->
+      <img src="media/bella.jpg" alt="Bella" width="300">
+
       <!--Bella's introduction-->
       <p>Bella is a <strong>Weimaraner</strong>.She loves to <span style="color:green">hunt</span>, play, and <strong>bark</strong> at <em>birds</em>!</p> 
 
@@ -45,9 +62,6 @@
       <div>
         Even at <strong>9 years</strong> of age, she's just as <em>energenic</em> as a <span style="color:rgb(126, 128, 0)">puppy</span>!
       </div>
-          
-      <!-- Added a photo of her-->
-      <img src="media/bella.jpg" alt="Bella" width="300">
 
   </div>
 
