@@ -27,11 +27,9 @@ ul {
     margin-left: auto;
     margin-right: auto;
     width: 45%;
-    max-width: 900px;
-    overflow: auto;
     box-shadow: 5px 8px 10px 2px;
+    text-align: center;
 }
-
 #sobablock {
     display: block;
     margin-left: auto;
@@ -45,4 +43,13 @@ ul {
 }
 .img-circle {
     border-radius: 20%;
+}
+#bellaTitle {
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    height: 30px;
+    border-radius: 75px;
+    border: 2px dashed rgb(236, 83, 236);    background-color: rgba(255, 255, 255, 0.267);
+
 }
