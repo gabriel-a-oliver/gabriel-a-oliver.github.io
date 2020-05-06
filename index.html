@@ -51,7 +51,12 @@
 
   <!-- Gabe's part starts here-->
   <!-- My code is inspired by w3schools and the Professor's Sample page to implement style details.-->
-  <div class="boxes" style="background-color:rgb(171, 203, 212); border:1px dotted rgb(216, 243, 173); box-shadow: 2px 2px -3px; border-radius: 7px";>
+  <div class="boxes" style=
+      "background-color:rgb(171, 203, 212);
+      border:1px dotted rgb(216, 243, 173);
+      box-shadow: 2px 2px -3px;
+      border-radius: 7px;
+      box-shadow: 0px 1px 0px 2px;">
     <!-- Bella's Name-->
     <h2 id="bellaTitle">
       Bella 
@@ -66,7 +71,7 @@
     </h2>
 
     <!--Photo of Bella-->
-    <img src="media/bella.jpg" alt="Bella" width="300">
+    <img class="img-circle" src="media/bella.jpg" alt="Bella" width="300">
 
     <!--Bella's introduction-->
     <div>
@@ -151,12 +156,29 @@
 
   <h2>Fun facts about us</h2>
   <p>Listed in alphabetical order:</p>
-  <ul style="list-style:circle;"></ul>
-      <li><strong><span style="color:grey">Bella</span></strong>: Weimaraners are nick-named <span style="color:grey;font-weight:bold">Grey-Ghosts</span>, for their <kbd>short</kbd> and <em>smooth</em> grey hair.</li> <!-- Love fun facts!-->
-      <li><span style="color:FireBrick"><strong>Buck</strong>:</span> A fun fact about me is that I have two siblings, my brother Grif and my sister Dare!</li>
-      <li><span style="color:rgb(148, 108, 180)"><strong> Lily </strong>:</span> A fun fact about me is live with two cats and a turtle</li>
-      <li><span style="color:olivedrab"><strong>Soba</strong>:</span> A fun fact about me is that I'm a shelter kitty. Adopt, don't shop :)</li>
-  <!-- Added end ul tag-->
-  </ul>
+  <!--Gabe: Fixed the list by modifying the ul tag in styles.css to text-align: left, then reducing the padding and margin for the box to 0px and reverting the width back to 100% its regular size-->
+  <div class="boxes" style=
+      "padding: 0px;
+      margin: 0px;
+      width: 100%">
+    <ul>
+      <li><strong><span style="color:grey">Bella</span>:</strong>
+        Weimaraners are nick-named
+        <span style="color:grey;font-weight:bold">Grey-Ghosts</span>,
+        for their <kbd>short</kbd> and <em>smooth</em> grey hair.
+      </li>
+      <li><span style="color:FireBrick"><strong>Buck</strong>:</span>
+        A fun fact about me is that I have two siblings, my brother Grif and my sister Dare!
+      </li>
+      <li><span style="color:rgb(148, 108, 180)"><strong> Lily</strong>:</span>
+        A fun fact about me is live with two cats and a turtle
+      </li>
+      <li><span style="color:olivedrab"><strong>Soba</strong>:</span>
+        A fun fact about me is that I'm a shelter kitty. Adopt, don't shop :)
+      </li>
+    <!-- Added end ul tag-->
+    </ul>
+  </div>
+  
 </body>
 </html>
