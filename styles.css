@@ -23,7 +23,7 @@ li {
     font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .boxes {
-    /*background-color: white;*/
+    background-color: rgba(255, 255, 255, 0);
     padding: 40px;
     margin: 20px;
     /*border: 4px solid black;*/
