@@ -16,24 +16,23 @@ table, th, td {
 }
 ul {
     display: block; 
-    text-align:center;
-   
+    text-align:left;
 }
 li { 
     display:inline-block;
     font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .boxes {
-    background-color: white;
+    /*background-color: white;*/
     padding: 40px;
     margin: 20px;
-    border: 4px solid black;
+    /*border: 4px solid black;*/
     /*border-radius: 15px;*/
     margin-left: auto;
     margin-right: auto;
     width: 45%;
     /*box-shadow: 1px 1px 1px 1px;*/
-    text-align: center;
+    /*text-align: center;*/
 }
 #sobablock {
     display: block;
