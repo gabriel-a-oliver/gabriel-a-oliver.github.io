@@ -15,8 +15,13 @@ table, th, td {
     margin-right: auto;
 }
 ul {
-    text-align: center;
-    list-style: inside;
+    display: block; 
+    text-align:center;
+   
+}
+li { 
+    display:inline-block;
+    font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .boxes {
     background-color: white;
