@@ -21,9 +21,6 @@
     nick-name { /* Gabe: Created my own class to make the code for Bella's nickname more readable*/
       font-style: italic;
     }
-    .makeUnderline {
-      font-style: unset;
-    }
   </style>
 <title>Our Pets</title> <!--Kat: changed title name to reflect the content-->
 </head>
@@ -52,11 +49,12 @@
 <!-- Using br instead of the div tag for a space between parts. Kat's part ends here.-->
 <hr>
 
-<!-- Gabe's part starts here-->
+  <!-- Gabe's part starts here-->
   <!-- My code is inspired by w3schools and the Professor's Sample page to implement style details.-->
   <div class="boxes" style="background-color:rgb(171, 203, 212); border:1px dotted rgb(216, 243, 173); box-shadow: 2px 2px -3px; border-radius: 7px";>
     <!-- Bella's Name-->
-    <h2 id="bellaTitle">Bella 
+    <h2 id="bellaTitle">
+      Bella 
       <nick-name>
         <span style="color:white">'</span><span
         style="color:rgb(224, 163, 7)">Cac</span><span 
@@ -64,23 +62,38 @@
         style="color:red">cha</span><span
         style="color:white">'</span>
       </nick-name>
-    Oliver</h2>
-      <!--Photo of Bella-->
-      <img src="media/bella.jpg" alt="Bella" width="300">
+      Oliver
+    </h2>
 
-      <!--Bella's introduction-->
-      <div class="makeUnderline">Bella is a <strong>Weimaraner</strong>.She loves to <span style="color:green">hunt</span>, play, and <strong>bark</strong> at <em>birds</em>!</div> 
+    <!--Photo of Bella-->
+    <img src="media/bella.jpg" alt="Bella" width="300">
 
-      <!--More Bella information-->
-      <p>
-        <span style="color:grey">Bella</span> runs around all day and brings <kbd><span style="color:rgb(84, 54, 54)">mud</span></kbd> back into the house, but she is too <kbd><span style="color:pink">cute</span></kbd> to get angry at.
-        Even at <strong>9 years</strong> of age, she's just as <em>energenic</em> as a <span style="color:rgb(126, 128, 0)">puppy</span>!
-      </p>
+    <!--Bella's introduction-->
+    <div>
+      <u>
+        Bella is a
+        <strong><span style="color:rgb(55, 57, 61)">Weimaraner<span></strong>!
+      </u>
+    </div> 
 
-  </div>
+    <!--More Bella information-->
+    <p>
+      <span style="color:grey">Bella</span>
+      runs around all day and brings
+      <kbd><span style="color:rgb(84, 54, 54)">mud</span></kbd> 
+      back into the house, but she is too
+      <kbd><span style="color:pink">cute</span></kbd>
+      to get angry at.
+      Even at <strong>9 years</strong>
+      of age, she's just as <em>energenic</em>
+      as a
+      <span style="color:rgb(126, 128, 0)">puppy</span>!
+    </p>
 
-  <!--visual line break-->
-  <hr>
+</div>
+
+<!--visual line break-->
+<hr>
   
   <!-- to make a larger gap between the photo and the table--> 
   <div></div> 
