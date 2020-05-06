@@ -33,7 +33,7 @@ li {
     margin-right: auto;
     width: 45%;
     /*box-shadow: 1px 1px 1px 1px;*/
-    /*text-align: center;*/
+    text-align: center;
 }
 #sobablock {
     display: block;
