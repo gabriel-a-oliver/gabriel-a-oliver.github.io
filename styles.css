@@ -15,7 +15,7 @@ table, th, td {
     margin-right: auto;
 }
 ul {
-    display: block;
+    /*display: block;*/
     text-align:left;
 }
 li { 
