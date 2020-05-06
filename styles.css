@@ -14,9 +14,10 @@ table, th, td {
     margin-left: auto;
     margin-right: auto;
 }
-ul {
-    display: block;
-    text-align:left;
+ul { /* Thank you google :) */
+    display: table;
+    /*text-align:left;*/
+    margin: 0 auto;
 }
 li { 
     text-align:left;
