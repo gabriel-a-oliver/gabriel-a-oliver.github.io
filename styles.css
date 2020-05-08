@@ -71,3 +71,15 @@ li {
 a:hover { /* Gabe: Inspiration gotten from Mark's sample page. */
     color: red;
 }
+
+#buckbck { /* bless Kat for her code I was so lost -Bo */
+display: block;
+margin-left: auto;
+margin-right: auto;
+letter-spacing: 5px;
+border-radius: 10px;
+padding: 5px;
+width: 100px;
+height: 15px;
+}
+
