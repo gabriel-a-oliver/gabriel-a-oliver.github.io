@@ -59,9 +59,19 @@ li {
     border: 2px dashed rgb(236, 83, 236);    background-color: rgba(255, 255, 255, 0.267);
 
 }
+#LilyTitle {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(165, 134, 223);
+    padding: 10px;
+    width: 300px;
+    height: 30px;
+}
 a:hover { /* Gabe: Inspiration gotten from Mark's sample page. */
     color: red;
 }
+
 #buckbck { /* bless Kat for her code I was so lost -Bo */
 display: block;
 margin-left: auto;
@@ -72,3 +82,4 @@ padding: 5px;
 width: 100px;
 height: 15px;
 }
+
