@@ -1,12 +1,15 @@
-/* I think organizing the style changes such that the more organization-structures styles are defined in this styles.css file while text style changes are defined in the index.html styles tag is a good way to organize them. THOUGHTS anyone?? */
 body {
     background-color: rgb(255, 231, 153);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+  }
 table, th, td {
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid black;
@@ -19,6 +22,7 @@ ul { /* Thank you google :) */
     /*text-align:left;*/
     margin: 0 auto;
 }
+<<<<<<< HEAD
 li { 
     text-align:left;
     /*display:inline-block;*/
@@ -27,11 +31,17 @@ li {
 .boxes { /* Gabe: Inspiration gotten from Mark's sample page. */
     background-color: rgba(255, 255, 255, 0);
     padding: 40px;
+=======
+.boxes {
+    background-color: rgb(232, 190, 243);
+    padding: 20px;
+>>>>>>> parent of 528bb09 (Merge pull request #20 from gabriel-a-oliver/master)
     margin: 20px;
     /*border: 4px solid black;*/
     /*border-radius: 15px;*/
     margin-left: auto;
     margin-right: auto;
+<<<<<<< HEAD
     width: 45%;
     /*box-shadow: 1px 1px 1px 1px;*/
     text-align: center;
@@ -79,4 +89,10 @@ margin-right: auto;
 letter-spacing: 5px;
 border-radius: 10px;
 border: 10px double black; 
+=======
+    width: 80%;
+    max-width: 900px;
+    overflow: auto;
+    box-shadow: 5px 5px 5px;
+>>>>>>> parent of 528bb09 (Merge pull request #20 from gabriel-a-oliver/master)
 }
